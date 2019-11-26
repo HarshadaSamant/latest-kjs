@@ -1,0 +1,340 @@
+
+@media screen and (max-width: 1280px) {
+	.industry_inner_wrap .wrapper .description .visit_info div,
+	.industry_inner_wrap .visit_inner .wrapper .description,
+	.industry-connect .description-section p {
+		font-size: 16px !important;
+	}
+	.industry_inner_wrap .wrapper .description .title  {
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.vision_inner_wrap .wrapper .images-section .image:after {
+		display: none;
+	}
+
+	.industry_inner_wrap .visit_inner .wrapper .description,
+	.vision_inner_wrap .wrapper .description {
+		margin-top: 10px;
+	}
+	.vision_inner_wrap .wrapper .images-section .image .caption {
+		font-size: 30px;
+	}
+	.vision_inner_wrap .wrapper .description .title {
+		font-size: 18px;
+	}
+	.vision_inner_wrap .wrapper .description {
+		font-size: 16px;
+		margin: 0;
+	}
+	.vision_inner_wrap .description .description-list li {
+		margin-bottom: 10px;
+	}
+
+	.industry_inner_wrap .visits .searchbar {
+		flex-direction: column;
+	}
+	.industry_inner_wrap .visits .searchbar .search_option {
+		width: 100%;
+		justify-content: flex-start;
+		margin: 10px;
+	}
+	.industry_inner_wrap .visits .searchbar h3 {
+		margin-right: auto; 
+	}
+	.industry_inner_wrap .visits .searchbar .search_option .select-wrapper {
+		margin-left: 3%;
+		margin-right: auto;
+		padding: 10px 0;
+	}
+	.industry_inner_wrap .visits .searchbar .search_option .select-wrapper:first-child {
+		margin-left: 3%;
+	}
+	/* Departments STYLES HERE */
+
+	.description-outer-section{
+		display: inherit;
+	}
+	.description-inner-section .description-vision{
+		position: inherit;
+		transform: inherit;
+	}
+	.domain-objective-outer-section .domain-images-section{
+		margin-bottom: 50px;
+	}
+	.keep_in_touch .keep-in-touch-section .description {
+		padding-top: 40px;
+		padding-left: 0px;
+	}
+	.keep_in_touch .keep-in-touch-section {
+		margin-bottom: 50px;
+	}
+	.learn_more_section ul li {
+	    width: 47%;
+	    margin-bottom: 20px;
+	}
+	.learn_more_section ul li:first-child {
+	    width: 100%;
+	}
+	.explore_somaiya_wrap .explore_somaiya ul li a {
+	    width: 96%;
+	}
+	.explore_somaiya_wrap .explore_somaiya ul li {
+	    width: calc(100% / 2);
+	}
+	.industry_inner_wrap:after {
+		left: 8%;
+		top: 3%;
+		font-size: 80px;
+	}
+
+
+	.words_inner_wrap .principal-info {
+		position: static;
+	}
+	.words_inner_wrap .wrapper {
+		flex-direction: column;
+	}
+	.words_inner_wrap .wrapper .images-section {
+	    width: 50%;
+	    margin: 0;
+	}
+	.words_inner_wrap .wrapper .description-section {
+		margin-top: 5%;
+	    width: 100%;
+	    text-align: center;
+	}
+	.words_inner_wrap .principal-section .details {
+		margin-top: 5%;
+	}
+	.words_inner_wrap .details .college-info {
+		padding-top: 2%;
+		margin-top: 0;
+	}
+	.words_inner_wrap .principal-info .image .caption .name {
+	    font-size: 16px;
+	    display: flex;
+	    justify-content: flex-start;
+	    margin-left: 13%;
+	}
+	/* alumni relation styling starts here */ 
+
+	.alumni-relation .wrapper .images-section {
+	    width: 50%;
+	    margin: 0 auto;
+	}
+	.alumni-relation .wrapper .description-section {
+		margin-top: 5%;
+	    width: 100%;
+	    text-align: center;
+	}
+
+	.alumni-relation .activity-list {
+		width: 100%;
+		flex-direction: column;
+	}
+
+	.alumni-relation .activity-list li {
+		width: 100%;
+	}
+	/* alumni-overview starts here */ 
+
+	.alumni-overview .description-section .description {
+		font-size: 16px;
+		text-align: center;
+	}
+
+	.features .wrapper {
+		flex-direction: row;
+		margin: auto;
+	}
+
+	.connected-section .connected-title {
+		width: 100%;
+	}
+
+	.connected-section .stay-connected {
+		margin: auto;
+		width: 90%;
+		padding: 0 15px;
+	}
+
+	.connected-section .mail,
+	.connected-section .social h4 {
+		font-size: 16px;
+	}
+	.connected-section .connect-btn {
+		margin-left: 0;
+	}
+	/* Contact Page styling starts here */
+
+	.keep-cards {
+		margin-bottom: 30px;
+	}
+	.separate-working-committe h5 {
+		padding: 0px;
+	}
+	.separate-working-committe .names{
+		margin-left: 0px;
+	}
+	
+
+	/* Academic Process styling starts here */
+
+	.academic_process .option-list li figcaption {
+	    padding-right: 0px;
+	}
+
+	/* Academic Process styling starts here */
+
+	.middle-section:before, .middle-section:after{
+		height: 0px;
+		width: 0px;
+	}
+
+	/* teaching learning process styling strats here */
+
+	.teaching_process .process_nav li a {
+		padding: 15px;
+		font-size: 16px;
+	}
+}
+
+
+@media screen and (max-width: 640px) {
+	.vision_inner_wrap .wrapper-parent .wrapper,
+	.wrapper,
+	.industry_inner_wrap .visits .searchbar .search_option {
+		flex-direction: column !important;
+	}
+	.vision_inner_wrap .wrapper-parent .wrapper .images-section,
+	.wrapper .images-section {
+		width: 100% !important;
+	}
+	.vision_inner_wrap .wrapper-parent .wrapper .description-section,
+	.wrapper .description-section {
+		width: 100% !important;
+	}
+	.vision_inner_wrap .wrapper-parent .wrapper .description.vision,
+	.vision_inner_wrap .wrapper .description.vision {
+		max-width: 100%;
+	}
+	.vision_inner_wrap .wrapper-parent .wrapper:nth-child(1n+1) .images-section,
+	 .wrapper:nth-child(2n+1) .images-section {
+		order: 0 !important;
+	}
+	.vision_inner_wrap .wrapper-parent .wrapper .images-section .image, 
+	.vision_inner_wrap .wrapper .images-section .image {
+		margin: 0 auto 30px;
+	}
+	.banner_section .banner_caption {
+		display: none;
+	}
+
+	.wrapper .description-section .organized {
+		margin-top: 20px;
+	}
+
+	.industry_inner_wrap:after {
+		font-size: 50px;
+	}
+	.industry_inner_wrap .visit_inner:after, .industry_inner_wrap .wrapper:after {
+	    bottom: -35px;
+	}
+	/* Departments STYLES HERE */
+
+	/* .description-outer-section{
+		display: inherit;
+	}
+	.description-inner-section .description-vision{
+		position: inherit;
+		transform: inherit;
+	}
+	.domain-objective-outer-section .domain-images-section{
+		margin-bottom: 50px;
+	}
+	.keep_in_touch .keep-in-touch-section .description {
+		padding-top: 40px;
+		padding-left: 0px;
+	}
+	.keep_in_touch .keep-in-touch-section {
+		margin-bottom: 50px;
+	} */
+
+	/* academic styling starts here */
+
+	.academic .overview .overview-item:nth-child(2n+2) {
+		margin-top: 0;
+	}
+	.academic .overview .overview-item .image-wrapper {
+		order: 0;
+	}
+	.academic .overview .overview-item .description:after {
+		top: auto;
+		bottom: 100%;
+	}
+	.academic .overview .overview-item .description:after {
+		border-bottom: 38px solid #307cbf;
+		border-top: transparent;
+	}
+	.academic .overview .overview-item .description.red:after {
+	    border-bottom-color: #a12023;
+	}
+	.consultancy_project_inner_wrap:after, .academic_process:after, .academic:after{
+		font-size: 90px;
+	}
+	
+	.academic .wrapper{
+		display: inherit;
+	}
+	.academic .wrapper .images-section, .academic .wrapper .description-section{
+		width: 100%;
+	}
+	.academic .read-more .media-section {
+	    width: 100%;
+	    margin-bottom: 30px;
+	}
+
+	/* academic styling ends here */
+
+	/* academic Process styling ends here */
+
+	.academic_process .description {
+	    font-size: 20px;
+	}
+	.facilities-list li{
+		width: 100%;
+		margin-right: 0%;
+	}
+	.consultancy_project_inner_wrap:after, .academic_process:after {
+	    font-size: 90px;
+	}
+	.academic_process .option-list li figure{
+		text-align: center;
+	}
+	.academic_process .option-list li{
+		margin-bottom: 40px;
+		width: 100%;
+	}
+	.academic_process .option-list li figcaption {
+	    margin: -25px 0 0 68px;
+	}
+	/* academic Process styling ends here */
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 767px) { 
+    /* STYLES HERE */
+    .heading_title{
+    	font-size: 28px;
+    	line-height: 28px;
+    }
+    .about_inner_wrap p {
+	    padding: 0px 20px;
+	}
+	.learn_more_section ul li {
+	    width: 100%;
+	    margin-bottom: 20px;
+	}
+}
